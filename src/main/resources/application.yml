@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:8200/memory_analyzer
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+
+logging:
+  level:
+    root: INFO
